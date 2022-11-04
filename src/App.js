@@ -11,6 +11,7 @@ import { Form } from './pages/Form';
 import { NotFound } from './pages/NotFound';
 import { ProfileRoutes } from './pages/ProfileRoutes';
 import { ErrorBoundary, useErrorHandler } from 'react-error-boundary';
+import "./style.css"
 
 function ErrorFallback({ error }) {
   return (
